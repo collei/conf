@@ -1,0 +1,27 @@
+{
+	"name": "collei/conf",
+	"description": "Load and read INI and Json configuration files.",
+	"keywords": ["config", "configuration", "json", "ini", "files"],
+	"homepage": "https://github.com/collei/conf",
+	"time": "2024-03-07",
+	"type": "library",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Alarido Su",
+			"email": "alarido.su@gmail.com",
+			"homepage": "http://alaridoconlangs.wordpress.com/"
+		}
+	],
+	"require": {
+		"php": ">=7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Collei\\Conf\\": "src/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.6"
+	}
+}

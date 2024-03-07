@@ -1,0 +1,7 @@
+/vendor/
+/test/
+/tests/
+/materials/
+test.*
+*.sublime-project
+*.sublime-workspace
